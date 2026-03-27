@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Burger Blast | Best Burgers in Town</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="offerPopup" class="offer-popup">
+  <div class="popup-content">
+    <span class="close-popup">&times;</span>
+    <i class="fas fa-burger"></i>
+    <h3>🔥 Special Offer!</h3>
+    <p>Get 20% OFF on your first order. Use code: <strong>BLAST20</strong></p>
+    <button id="popupClaimBtn">Claim Now</button>
+  </div>
+</div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <a href="index.html"><i class="fas fa-hamburger"></i> Burger Blast</a>
+    </div>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cart.html" class="cart-link"><i class="fas fa-shopping-cart"></i> Cart <span id="cartCountNav">0</span></a></li>
+    </ul>
+    <div class="nav-buttons">
+      <a href="menu.html" class="btn-order-now">Order Now</a>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Craving a <span class="highlight">Burger Blast</span>?</h1>
+    <p>Juicy, flame-grilled perfection with a crunch. Taste the explosion!</p>
+    <div class="hero-buttons">
+      <a href="menu.html" class="btn-primary">Order Now</a>
+      <a href="menu.html" class="btn-secondary">View Menu</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&auto=format" alt="Delicious Burger">
+  </div>
+</section>
+
+<section class="featured">
+  <div class="container">
+    <h2 class="section-title">🔥 Featured Burgers</h2>
+    <div class="products-grid" id="featuredGrid"></div>
+  </div>
+</section>
+
+<section class="why-us">
+  <div class="container">
+    <h2 class="section-title">Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature"><i class="fas fa-pepper-hot"></i><h3>Fresh Ingredients</h3><p>Farm-fresh veggies & premium meat.</p></div>
+      <div class="feature"><i class="fas fa-shipping-fast"></i><h3>Fast Delivery</h3><p>Hot & fresh in 30 mins.</p></div>
+      <div class="feature"><i class="fas fa-utensils"></i><h3>Secret Sauces</h3><p>Signature recipes you'll love.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="combos">
+  <div class="container">
+    <h2 class="section-title">🍟 Combo Offers</h2>
+    <div class="combo-grid" id="comboGrid"></div>
+  </div>
+</section>
+
+<section class="about-preview">
+  <div class="container preview-wrap">
+    <div class="preview-text">
+      <h2>Our Story</h2>
+      <p>Since 2010, Burger Blast has been serving the most mouthwatering burgers. Passion for flavor, commitment to quality, and a vibe that keeps you coming back. <a href="about.html">Read more →</a></p>
+    </div>
+    <div class="preview-img"><img src="https://images.unsplash.com/photo-1586816001966-79b736744398?w=400&auto=format" alt="Restaurant"></div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="container">
+    <h2 class="section-title">Customer Love 💛</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial"><i class="fas fa-star"></i><p>"Best burger in the city! Juicy and fresh!"</p><h4>- Rahul S.</h4></div>
+      <div class="testimonial"><i class="fas fa-star"></i><p>"Amazing combos and super fast delivery."</p><h4>- Priya K.</h4></div>
+      <div class="testimonial"><i class="fas fa-star"></i><p>"Love the crispy fries and cheesy burgers."</p><h4>- Ankit M.</h4></div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="container">
+    <h2 class="section-title">📸 Instagram Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1551782450-17144efb9c50?w=300&auto=format" alt="burger1">
+      <img src="https://images.unsplash.com/photo-1553979459-d2229ba743c6?w=300&auto=format" alt="burger2">
+      <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=300&auto=format" alt="burger3">
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859941?w=300&auto=format" alt="fries">
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h2>Ready for a Burger Blast?</h2>
+    <a href="menu.html" class="btn-primary">Order Online</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-col"><h3>Burger Blast</h3><p>Crunch, Juicy, Flavor!</p></div>
+    <div class="footer-col"><h4>Quick Links</h4><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+    <div class="footer-col"><h4>Contact</h4><p><i class="fas fa-map-marker-alt"></i> 123 Flavor Street, NY</p><p><i class="fas fa-phone"></i> +1 234 567 890</p></div>
+    <div class="footer-col"><h4>Follow Us</h4><div class="social"><i class="fab fa-instagram"></i><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i></div></div>
+  </div>
+  <div class="bottom">© 2025 Burger Blast. All rights reserved.</div>
+</footer>
+
+<a href="https://wa.me/1234567890?text=I%20want%20to%20order%20from%20Burger%20Blast" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
