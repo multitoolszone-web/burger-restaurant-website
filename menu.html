@@ -12,24 +12,40 @@
 
 <nav class="navbar" id="navbar">
   <div class="nav-container">
-    <div class="logo"><a href="index.html"><i class="fas fa-hamburger"></i> Burger Blast</a></div>
+    <div class="logo">
+      <a href="index.html"><i class="fas fa-hamburger"></i> Burger Blast</a>
+    </div>
     <ul class="nav-menu" id="navMenu">
-      <li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html" class="active">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
       <li><a href="cart.html" class="cart-link"><i class="fas fa-shopping-cart"></i> Cart <span id="cartCountNav">0</span></a></li>
     </ul>
-    <div class="nav-buttons"><a href="menu.html" class="btn-order-now">Order Now</a><div class="hamburger" id="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div></div>
+    <div class="nav-buttons">
+      <a href="menu.html" class="btn-order-now">Order Now</a>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
   </div>
 </nav>
 
 <section class="page-header">
-  <div class="container"><h1>Our Menu</h1><p>Choose your flavor blast!</p></div>
+  <div class="container">
+    <h1>Our Menu</h1>
+    <p>Choose your flavor blast from our delicious selection!</p>
+  </div>
 </section>
 
 <section class="menu-categories">
   <div class="container">
     <div class="category-tabs">
-      <button class="cat-btn active" data-cat="veg">🌱 Veg</button>
-      <button class="cat-btn" data-cat="chicken">🍗 Chicken</button>
+      <button class="cat-btn active" data-cat="all">🍔 All Items</button>
+      <button class="cat-btn" data-cat="veg">🌱 Veg Burgers</button>
+      <button class="cat-btn" data-cat="chicken">🍗 Chicken Burgers</button>
       <button class="cat-btn" data-cat="combos">🍟 Combos</button>
       <button class="cat-btn" data-cat="drinks">🥤 Drinks</button>
     </div>
@@ -38,10 +54,39 @@
 </section>
 
 <footer>
-  <div class="footer-container"><div class="footer-col"><h3>Burger Blast</h3><p>Crunch, Juicy, Flavor!</p></div><div class="footer-col"><h4>Quick Links</h4><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">About</a><a href="contact.html">Contact</a></div><div class="footer-col"><h4>Contact</h4><p><i class="fas fa-map-marker-alt"></i> 123 Flavor Street, NY</p><p><i class="fas fa-phone"></i> +1 234 567 890</p></div><div class="footer-col"><h4>Follow Us</h4><div class="social"><i class="fab fa-instagram"></i><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i></div></div></div>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h3>Burger Blast</h3>
+      <p>Crunch, Juicy, Flavor!</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p><i class="fas fa-map-marker-alt"></i> 123 Flavor Street, NY</p>
+      <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+    </div>
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+      <div class="social">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </div>
+  </div>
   <div class="bottom">© 2025 Burger Blast. All rights reserved.</div>
 </footer>
-<a href="https://wa.me/1234567890?text=I%20want%20to%20order" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+<a href="https://wa.me/1234567890?text=I%20want%20to%20order%20from%20Burger%20Blast" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
 <script src="js/script.js"></script>
 </body>
 </html>
